@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sửa Hồ Sơ"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <!-- Avatar Image -->
+            <ImageButton
+                android:id="@+id/avatarButtonAd"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_default_avatar"
+                android:scaleType="centerCrop"
+                android:background="@drawable/rounded_avatar" />
+
+            <!-- Edit Text Overlay -->
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:text="Sửa"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="2dp"
+                android:background="#80000000"
+                />
+
+        </FrameLayout>
+        <!-- Profile Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/btnEditEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email: "
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border_button"
+                    android:gravity="left"
+                    android:drawableRight="@drawable/ic_forward"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp" />
+
+                <Button
+                    android:id="@+id/btnEditTen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tên: "
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border_button"
+                    android:gravity="left"
+                    android:drawableRight="@drawable/ic_forward"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp" />
+
+                <Button
+                    android:id="@+id/btnEditPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: "
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border_button"
+                    android:gravity="left"
+                    android:drawableRight="@drawable/ic_forward"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp" />
+                <Button
+                    android:id="@+id/btnEditAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Địa Chỉ: "
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border_button"
+                    android:gravity="left"
+                    android:drawableRight="@drawable/ic_forward"
+                    android:layout_marginBottom="8dp"
+                    android:padding="12dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnLogoutAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng Xuất"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#F44336"
+            android:layout_marginTop="15dp"
+            android:paddingVertical="12dp"
+            android:elevation="2dp" />
+    </LinearLayout>
+</ScrollView>

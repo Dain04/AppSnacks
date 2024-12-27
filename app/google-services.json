@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203577863762",
+    "firebase_url": "https://appsnacks-f02da-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appsnacks-f02da",
+    "storage_bucket": "appsnacks-f02da.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203577863762:android:89c97fdce24a3e3dda398b",
+        "android_client_info": {
+          "package_name": "com.example.appsnacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203577863762-v5i7kh4irboot3ru6if60673rf30ajsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appsnacks",
+            "certificate_hash": "9cdd65d2aa74ff315c7824830e6ec41b3428834c"
+          }
+        },
+        {
+          "client_id": "203577863762-qh01gi66p10qq35grb8ki1kpjvqmurug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1pLx0J1oSuU3tqy31yQffxlz85CvDD68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203577863762-qh01gi66p10qq35grb8ki1kpjvqmurug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
